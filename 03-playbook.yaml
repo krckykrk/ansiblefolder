@@ -1,0 +1,6 @@
+- name: variable in ansible
+  hosts: mongodb
+  tasks:
+  -  name: printing hello world
+     ansible.builtin.debug:
+       msg: "hello, i a learning devops"
