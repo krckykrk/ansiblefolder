@@ -1,0 +1,6 @@
+- name: ansible variable datatypes
+  hosts: localhost
+  vars:
+  - AGE: 30
+  - NAME: "raj"
+  
